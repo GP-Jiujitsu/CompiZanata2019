@@ -11,3 +11,5 @@ display "Uso de comentarios";
 -/ Constantes numericas /-
 display "Constantes numericas";
 a:=0.12;
+
+chimpa
