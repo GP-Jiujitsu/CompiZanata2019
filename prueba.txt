@@ -12,4 +12,4 @@ display "Uso de comentarios";
 display "Constantes numericas";
 a:=0.12;
 
-chimpa de m
+chimpa
