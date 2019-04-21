@@ -1,0 +1,169 @@
+DEFVAR
+a, d : float
+b, c : int
+pri, p : string
+ENDDEF
+
+write "Se declararon variables";
+
+write "Uso de comentarios";
+
+-/ Constantes numericas /-
+write "Constantes numericas";
+a:=0.12;
+d:= 12.1;
+b:=1;
+c:=5;
+
+write "Asignacion con expresion";
+c:=a+1;
+write c;
+
+write a;
+write b;
+
+-/ Constantes string /-
+write "Constantes string";
+pri := "Hola";
+write pri;
+
+-/ Implementacion clico WHILE /-
+
+write "WHILE comun";
+b:=1;
+while(b<3)
+{
+    b:=b+1;
+    write "**entre al WHILE";
+}
+
+write "WHILE con NOT";
+b:=1;
+while(NOT b  > 3)
+{
+    b:=b+1;
+    write "**entre al WHILE con NOT";
+}
+
+-/ Implementacion de IF /-
+
+write "IF comun (entra)";
+b:= 1;
+if(b==1)
+{
+    write "**ingresa al IF";
+}
+
+write "IF comun (no entra)";
+b:= 1;
+if(b!=1)
+{
+    write "**ingresa al IF";
+}
+
+write "IF con ELSE (entra if)";
+b:= 1;
+if(b==1)
+{
+    write "**ingresa al IF";
+}
+else{
+    write "**ingresa al ELSE";
+}
+
+write "IF con ELSE (entra else)";
+b:= 1;
+if(b!=1)
+{
+    write "**ingresa al IF";
+}
+else{
+    write "**ingresa al ELSE";
+}
+
+write "IF con AND";
+b:= 1;
+a:= 3;
+if((b==1) AND (a>0))
+{
+write "**ingresa al IF";
+}
+
+write "IF con AND y ELSE";
+b:= 1;
+a:= 3;
+if((b==1) AND (a>0))
+{
+write "**ingresa al IF";
+}
+else
+{
+write "**ingresa al ELSE";
+}
+
+write "IF con NOT";
+b:=0;
+if(NOT b > 0 )
+{
+    write "**entre al IF con NOT";
+}
+
+write "IF con EXPRESIONES";
+b:=6;
+if(b<b+2)
+{
+    write "**ingresa al IF";
+}
+
+-/Asignaciones simples /-
+write "Asignaciones simples";
+a := 3.33;
+d := a;
+write d;
+
+-/Temas Especiales /-
+write "Temas Especiales";
+
+write "INLIST";
+b:= 5;
+if( INLIST(b;[1; 2; 3; 4; 5]) )
+{
+    write "**encontrado";
+}
+else
+{
+    write "**no encontrado";
+}
+
+write "INLIST con EXPRESIONES";
+b:= 7.0;
+c:= 7.0;
+if( INLIST(b;[1; 2; c+1 ; 4; 5]) )
+{
+    write "**encontrado";
+}
+else
+{
+    write "**no encontrado";
+}
+
+write "AVG comun";
+a:= AVG([2, 4, 6]);
+write a;
+
+write "AVG con EXPRESIONES";
+b:=5;
+a:= AVG([2, (b + b) / 2 , 6]);
+write a;
+
+-/READ y WRITE /-
+
+write "Entradas y salidas";
+write "Ingrese valor de a (float) : ";
+READ a;
+write a;
+
+write "Entradas y salidas";
+write "Ingrese valor de p (str) : ";
+READ p;
+write p;

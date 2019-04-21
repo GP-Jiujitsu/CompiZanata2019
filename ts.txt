@@ -1,0 +1,10 @@
+Nombre                   |Tipo                     |Valor                    |Longitud                 |Limite                   
+_a                       |int                      |a                        |1                        |6845096                  
+_d                       |int                      |d                        |1                        |0                        
+_b                       |string                   |b                        |1                        |6845096                  
+_c                       |string                   |c                        |1                        |0                        
+_se declararon variables |cstring                  |Se declararon variables  |23                       |0                        
+_uso de comentarios      |cstring                  |Uso de comentarios       |18                       |0                        
+_constantes numericas    |cstring                  |Constantes numericas     |20                       |0                        
+_0p12                    |cfloat                   |0.12                     |4                        |13764616                 
+

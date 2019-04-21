@@ -1,0 +1,13 @@
+DEFVAR
+float : a; d 
+int : b; c
+string : pri; p 
+ENDDEF
+
+display "Se declararon variables";
+
+display "Uso de comentarios";
+
+-/ Constantes numericas /-
+display "Constantes numericas";
+a:=0.12;

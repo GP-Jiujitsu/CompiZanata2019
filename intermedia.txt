@@ -1,0 +1,9 @@
+Se_declararon_variables
+DISPLAY
+Uso_de_comentarios
+DISPLAY
+Constantes_numericas
+DISPLAY
+0p12
+a
+=
