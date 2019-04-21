@@ -4,9 +4,9 @@ b, c : int
 pri, p : string
 ENDDEF
 
-write "Se declararon variables";
+write "Se declararon  variables";
 
-write "Uso de comentarios";
+write "Uso de comentarios ";
 
 -/ Constantes numericas /-
 write "Constantes numericas";
